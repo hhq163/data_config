@@ -9,8 +9,8 @@ import (
 	"regexp"
 	"strings"
 
-	"dataconfig/base"
-	_ "dataconfig/output"
+	"github.com/hhq163/data_config/base"
+	_ "github.com/hhq163/data_config/output"
 
 	"github.com/golang/protobuf/proto"
 	"github.com/hhq163/logger"

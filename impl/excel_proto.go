@@ -2,7 +2,6 @@ package impl
 
 import (
 	"bytes"
-	"dataconfig/base"
 	"errors"
 	"fmt"
 	"io/ioutil"
@@ -12,6 +11,8 @@ import (
 	"regexp"
 	"strconv"
 	"strings"
+
+	"github.com/hhq163/data_config/base"
 
 	"github.com/hhq163/logger"
 	"github.com/tealeg/xlsx"
